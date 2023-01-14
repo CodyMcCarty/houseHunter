@@ -32,18 +32,19 @@ build/
 ### VS Code ###
 .vscode/
 
-### From frontend .gitignore ###
+### From frontend .gitignore /src/frontend ###
 
 # dependencies
-/node_modules
-/.pnp
+
+/src/frontend/node_modules
+/src/frontend/.pnp
 .pnp.js
 
 # testing
-/coverage
+/src/frontend/coverage
 
 # production
-/build
+/src/frontend/build
 
 # misc
 .DS_Store
